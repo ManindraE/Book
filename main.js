@@ -90,6 +90,7 @@ function calculateLoyalty(){
 
     if(roomTotal >=3){
         loyaltyPoints += roomTotal * 20;
+        localStorage.setItem('LoyaltyPoints', loyaltyPoints);
     }
 }
 
